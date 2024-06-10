@@ -16,7 +16,5 @@
   cars();
   console.log(carName); 
 
-
-
-  
+ 
 //Function Scope

@@ -1,12 +1,9 @@
-function fetchData(callback) {
-    setTimeout(() => {
-      callback('Data received');
-    }, 1000);
-  }
-  
-  function handleData(data) {
-    console.log(data);
-  }
-  
-  fetchData(handleData); // "Data received" after 1 second
-  
+function sum(a,b){
+    console.log(a+b);
+}
+
+function calculator(a,b,sumCallback){
+    sumCallback(a,b);
+}
+calculator(1,2,sum);
+

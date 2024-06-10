@@ -1,4 +1,6 @@
-function greet(greeting, punctuation) {
+
+
+ function greet(greeting, punctuation) {
     console.log(greeting + ', ' + this.name + punctuation);
   }
   
