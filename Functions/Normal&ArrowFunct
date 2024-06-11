@@ -1,0 +1,14 @@
+//Normal function
+
+function greeting(){
+    console.log("Good morning");
+};
+greeting();
+
+//Arrow function
+
+const greet = ()=>{
+    console.log("Good afternoon");
+}
+
+greet();
